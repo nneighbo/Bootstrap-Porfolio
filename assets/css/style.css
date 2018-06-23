@@ -6,7 +6,6 @@
 
 .main-div {
     background-color: #efefef;
-    margin-top: 50px;
     border-radius: 10px;
     border: #bdbdbd solid 1px;
 }
@@ -29,4 +28,22 @@
     background-color: #efefef;
     border-radius: 10px;
     border: #bdbdbd solid 1px;
+}
+
+.proj {
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.proj-1 {
+    margin-top: 5%;
+}
+
+.proj-4 {
+    margin-top: 5%;
+}
+
+.container {
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
