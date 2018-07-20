@@ -1,204 +1,92 @@
-.headers {
+.nav-header {
+    font-size: 35px;
+}
+
+.nav-text {
+    font-size: 17.5px;
+    margin-top: 8px;
+}
+
+#left-body {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: black;
+}
+
+#right-body {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: black;
+}
+
+#background-image {
+    background-image: url("../images/dust_scratches.png")
+}
+
+#row-one {
+    margin-top: 55px;
+}
+
+.fa-twitter {
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: -1px;
+    background-color: #00aced;
+    padding: 15px;
+    font-size: 65px;
+    border-radius: 55px;
 }
 
-.nav-item a {
+.fa-github {
+    font-size: 96px;
+    border-radius: 55px;
+}
+
+.fa-linkedin-in {
     color: white;
+    background-color: #4875B4;
+    padding: 30px;
+    font-size: 35px;
+    border-radius: 100%;
 }
 
-.main-div {
-    background-color: #efefef;
-    border-radius: 10px;
-    border: #bdbdbd solid 1px;
+.contact-h1 {
+    text-align: center; 
 }
 
-#img-me {
-    float: left;
-    padding-right: 15px;
-    padding-top: 15px;
+#content {
+    padding-left: 30px;
+    padding-right: 10px;
 }
 
-.para-text {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    padding-top: 15px;
-    opacity: 0.9;  
+#image {
+    padding-left: 10px
 }
 
-.sidebar {
-    margin-top: 50px;
-    text-align: center;
-    background-color: #efefef;
-    border-radius: 10px;
-    border: #bdbdbd solid 1px;
+.content {
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
-.proj {
-    margin-left: 20%;
-    margin-bottom: 10%;
+#about-me-h1 {
+    padding-left: 15px;
+    margin-top: 12px;
 }
 
-.proj-1 {
-    margin-top: 10%;
-}
-
-.proj-4 {
-    margin-top: 10%;
-}
-
-.container {
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
-
-.label-text {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 22px;
+.btn-style {
+    background-color: white;
     color: black;
-    opacity: 0.7;    
+    border-color: black;
+    border-width: 1.5px;
 }
 
-.image-container {
-    position: relative;
-}
-
-.label {
-    position: absolute;
+.btn-style:hover {
+    color: #e3e3e3;
     background-color: #343a40;
-    color: white;
-    width: 200px;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
-.label-1 {
-    top: 23%;
-    left: 20%;
-}
-
-.label-2 {
-    top: 55%;
-    left: 20%;
-}
-
-.label-3 {
-    top: 87%;
-    left: 20%;
-}
-
-.label-4 {
-  top: 23%;
-  right: 79px;
-}
-
-.label-5 {
-  top: 55%;
-  right: 79px;
-}
-
-.label-6 {
-  top: 87%;
-  right: 79px;
-}
-
-
-
-@media only screen and (max-width: 980px) {
-    .proj {
-        margin-left: 2%;
-        margin-bottom: 10%;
-    }
-
-    .label-1 {
-        top: 23%;
-        left: 2%;
-    }
-    
-    .label-2 {
-        top: 55%;
-        left: 2%;
-    }
-    
-    .label-3 {
-        top: 87%;
-        left: 2%;
-    }
-    
-    .label-4 {
-      top: 23%;
-      right: 2.5%;
-    }
-    
-    .label-5 {
-      top: 55%;
-      right: 2.5%;
-    }
-    
-    .label-6 {
-      top: 87%;
-      right: 2.5%;
-    }
-    
-}
-
-@media only screen and (max-width: 640px) {
-    .proj {
-        width: 150px;
-        height: 150px;
-    }
-
-    .label {
-        width: 150px;
-        height: 50px;
-    }
-
-    .proj-1 {
-        margin-top: 5%;
-    }
-    
-    .proj-2 {
-        margin-top: 5%;
-    }
-
-    .proj-3 {
-        margin-top: 5%;
-    }
-    
-    .proj-4 {
-        margin-top: 0%;
-    }
-
-    .label-1 {
-        top: 50%;
-        left: 2%;
-    }
-    
-    .label-2 {
-        top: 50%;
-        left: 34.5%;
-    }
-    
-    .label-3 {
-        top: 50%;
-        left: 66.7%;
-    }
-    
-    .label-4 {
-      top: 45%;
-      right: 3.5%;
-    }
-    
-    .label-5 {
-      top: 45%;
-      right: 36%;
-    }
-    
-    .label-6 {
-      top: 45%;
-      right: 68.5%;
-    }
+.card {
+    margin-left: 45px;
 }
